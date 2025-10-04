@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 VERSION="1.2"
 
 function showVersion {
@@ -297,7 +297,7 @@ function convertPreviews {
         echo "Did not find ${transparent}"
     fi
 }
- 
+
 function cloneface {
     local sourcewatchface
     local destwatchface="$2"
